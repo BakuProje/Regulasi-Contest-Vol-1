@@ -17,7 +17,7 @@ export function RegulationsSection() {
             <span className="text-foreground">REGULASI</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Pilih kategori untuk melihat detail regulasi kontes modifikasi motor 5TL Makassar 2026
+            Pilih Kategori Untuk Melihat Detail Regulasi Fun Bike Contest Vol 1 2026
           </p>
         </div>
 
