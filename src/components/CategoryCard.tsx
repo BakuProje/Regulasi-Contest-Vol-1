@@ -21,7 +21,7 @@ export function CategoryCard({ regulation, index, onClick }: CategoryCardProps) 
               {index + 1}
             </span>
             <h3 className="font-semibold text-foreground truncate group-hover:text-primary transition-colors">
-              {regulation.title.replace(/^[IVXLCDM]+\.\s*KATEGORI\s*/i, "")}
+              {regulation.title.replace(/^\d+\.\s*KATEGORI\s*/i, "")}
             </h3>
           </div>
           <p className="text-sm text-muted-foreground line-clamp-1 pl-11">
